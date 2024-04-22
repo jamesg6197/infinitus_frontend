@@ -1,0 +1,99 @@
+/* Style the navigation menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav .right-contents {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .right-contents li {
+    display: inline;
+    margin: 0 1vw;
+  }
+  
+  nav .right-contents .login-button {
+    background-color: var(--main-blue);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  nav .right-contents .register-button {
+    background-color: var(--main-blue);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  nav .right-contents .pdfchat-button {
+    background-color: var(--main-blue);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  nav .right-contents .login-button a {
+    color: black;
+  }
+  nav .right-contents .register-button a {
+    color: black;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--main-blue);
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  nav .left-contents i {
+    font-size: 40px;
+    padding: 0 1vw;
+  }
+  
+  .scrollable {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  
+  .title-container {
+    background: linear-gradient(
+      180deg,
+      rgba(184, 226, 251, 0.2) 0%,
+      rgba(242, 239, 232, 0.2) 33.56%,
+      rgba(249, 220, 221, 0.2) 54.53%,
+      rgba(225, 193, 229, 0.2) 73.17%,
+      rgba(189, 175, 227, 0.2) 100%
+    );
+    padding: 3rem 0;
+  }
+  
+  .title-contents {
+    width: 60%;
+    padding-left: 3vw;
+    text-align: left;
+  }
+  
+  .title-contents h1 {
+    font-size: 4.5rem;
+    font-weight: 400;
+  }
+  
+  .title-contents p {
+    font-size: 1.75rem;
+  }
+  
+  .info-container {
+    height: max-content;
+    background: rgba(184, 226, 251, 0.2);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-contents {
+    height: max-content;
+    font-size: 1.75rem;
+    padding: 50px;
+    margin-bottom: 50px;
+  }
