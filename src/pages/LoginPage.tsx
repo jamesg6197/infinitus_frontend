@@ -1,7 +1,6 @@
 import React, { useState, useContext, FormEvent } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-//import { useAuth } from "../Auth/AuthProvider";
 import { LoginFormValues } from "./interfaces";
 import AuthContext from "./AuthContext";
 

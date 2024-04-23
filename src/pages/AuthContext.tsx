@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import {jwtDecode} from "jwt-decode";
 
 // Defining the types for your tokens and user data
-type AuthToken = {
+export type AuthToken = {
   access: string;
   refresh: string;
 };

@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
-import {useEffect, useState, useContext} from "react";
+import {useContext} from "react";
 import AuthContext from "./AuthContext";
-import "./general.css";
+import "../styles/general.css";
 
 const Navbar = () => {
 

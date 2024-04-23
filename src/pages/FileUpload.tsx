@@ -1,7 +1,6 @@
 // src/components/FileUpload.tsx
-import React, { useContext, useEffect, useState } from "react";
+import React from "react";
 import { useDropzone } from 'react-dropzone';
-import AuthContext from "./AuthContext";
 
 type AuthToken = {
     access: string;
@@ -23,7 +22,6 @@ const FileUpload: React.FC<FileUploadProps> = ({ onUpload, uploadedFiles, token 
     },
     accept: {
         'application/pdf': ['.pdf'],
-
     },
   });
 
