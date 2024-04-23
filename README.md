@@ -4,7 +4,7 @@ This is the frontend repository for a web application that allows users to chat 
 
 https://github.com/jamesg6197/Infinitus_Backend/tree/main
 
-Alongside the primary features of using an LLM to chat with the Startup Playbook pdf, the application supports user authentication, and the bonus feature of allowing users to upload their files. 
+Alongside the primary features of using an LLM to chat with the Startup Playbook pdf, the application supports user authentication and the bonus feature of allowing users to upload their files. 
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ Instructions are listed in the backend README.md
 ### Clone the repository
 
 ```
-git clone https://github.com/jamesg6197/Infinitus_Backend.git
+git clone https://github.com/jamesg6197/infinitus_frontend.git
 ```
 
 ### Start the frontend and navigate to localhost:8000
