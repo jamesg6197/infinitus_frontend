@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Infinitus Take Home Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend repository for a web application that allows users to chat with PDFs they uploaded. It is built with Typescript and communicates with the Django backend located here:
 
-## Available Scripts
+https://github.com/jamesg6197/Infinitus_Backend/tree/main
 
-In the project directory, you can run:
+Alongside the primary features of using an LLM to chat with the Startup Playbook pdf, the application supports user authentication, and the bonus feature of allowing users to upload their files. 
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Start first by setting up the backend:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Instructions are listed in the backend README.md
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone the repository
 
-### `npm run build`
+```
+git clone https://github.com/jamesg6197/Infinitus_Backend.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Start the frontend and navigate to localhost:8000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Using the application.
 
-### `npm run eject`
+1.  Register with an email and password
+2.  Navigate to the PDF Chat through the Navbar
+3.  I added a new feature which allows users to upload their own PDFs and ask questions related to those pdfs
+4.  If no new pdfs are added, PDFChat just answers questions based on the Startup Playbook.pdf file.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
