@@ -29,7 +29,7 @@ npm start
 
 1.  Register with an email and password
 2.  Navigate to the PDF Chat through the Navbar
-3.  I added a new feature which allows users to upload their own PDFs and ask questions related to those pdfs
+3.  I added a new feature which allows users to upload their own PDFs and ask questions related to those pdfs. To use this, simply click into the sidebar in the PDF Chat page to upload PDFs from the local machine.
 4.  If no new pdfs are added, PDFChat just answers questions based on the Startup Playbook.pdf file.
 
 
