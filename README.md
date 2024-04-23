@@ -22,6 +22,7 @@ git clone https://github.com/jamesg6197/infinitus_frontend.git
 ### Start the frontend and navigate to localhost:8000
 
 ```
+npm install
 npm start
 ```
 
